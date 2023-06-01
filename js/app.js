@@ -35,7 +35,7 @@ let studentsInfo = [
 
 // operations to perform:
 
-// let index = studentsInfo[studentsInfo.length - 1].favLanguages.length -1;
+
 console.log(studentsInfo);
 console.log(studentsInfo[studentsInfo.length - 1].name);
 console.log(studentsInfo[studentsInfo.length - 1].age);
@@ -47,6 +47,7 @@ console.log(
     studentsInfo[studentsInfo.length - 1].favLanguages.length - 1
   ]
 );
+// let index = studentsInfo[studentsInfo.length - 1].favLanguages.length -1;
 // console.log(studentsInfo[studentsInfo.length - 1].favLanguages[index]);
 console.log(
   "Marks Of English = " +
