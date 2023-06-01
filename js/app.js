@@ -32,6 +32,9 @@ let studentsInfo = [
     },
   },
 ];
+
+// operations to perform:
+
 // let index = studentsInfo[studentsInfo.length - 1].favLanguages.length -1;
 console.log(studentsInfo);
 console.log(studentsInfo[studentsInfo.length - 1].name);
@@ -39,7 +42,16 @@ console.log(studentsInfo[studentsInfo.length - 1].age);
 console.log(studentsInfo[studentsInfo.length - 1].regNo);
 console.log(studentsInfo[studentsInfo.length - 1].course);
 console.log(studentsInfo[studentsInfo.length - 1].favLanguages[0]);
-console.log(studentsInfo[studentsInfo.length - 1].favLanguages[studentsInfo[studentsInfo.length - 1].favLanguages.length -1]);
+console.log(
+  studentsInfo[studentsInfo.length - 1].favLanguages[
+    studentsInfo[studentsInfo.length - 1].favLanguages.length - 1
+  ]
+);
 // console.log(studentsInfo[studentsInfo.length - 1].favLanguages[index]);
-console.log("Marks Of English = " + studentsInfo[studentsInfo.length - 1].marksOfSubjects.english);
-console.log("Marks Of bio = " + studentsInfo[studentsInfo.length - 1].marksOfSubjects.bio);
+console.log(
+  "Marks Of English = " +
+    studentsInfo[studentsInfo.length - 1].marksOfSubjects.english
+);
+console.log(
+  "Marks Of bio = " + studentsInfo[studentsInfo.length - 1].marksOfSubjects.bio
+);
